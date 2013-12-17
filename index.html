@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.1/underscore-min.js"></script>
+	<script src="collapsible_comments.js"></script>
+	<style>
+		.post-text { font-size: large; }
+		.comments { padding-left: 50px; }
+        .comment { border-bottom: solid 1px; }
+	</style>
+</head>
+<body>
+	<div class="post">
+		<div class="post-text">
+			<p>
+				This is the 'blog post. It isn't really important for the purpose of this exercise.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eros dolor, elementum et porttitor ac, lacinia eu libero. Aenean neque ante, ullamcorper et scelerisque at, ultricies eu metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In et ligula arcu, et sagittis elit. Curabitur eget metus neque, nec vehicula erat. Vivamus rutrum metus pellentesque justo tristique non sollicitudin velit.
+			</p>
+		</div>
+		<div class="comments">
+			<div class="comment">
+				<p>
+					This is the first comment. It has less than 128 characters.
+				</p>
+			</div>
+			<div class="comment">
+				<p>
+					This is the second comment. It is has exactly 128 characters. Lorem ipsum dolor sit amet, consectetur adipiscing elit volutpat.
+				</p>
+			</div>
+			<div class="comment">
+				<p>
+					This is the third comment. It has more than 128 characters. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in tortor leo. Suspendisse est sapien, commodo eu volutpat quis, pellentesque sit amet nulla. Curabitur nec erat lectus. Sed suscipit sollicitudin diam sit.
+				</p>
+			</div>
+			<div class="comment">
+				<p>
+					This is the fourth comment. It has much more than 128 characters.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a dui metus. Proin eleifend consectetur arcu id pharetra. Ut eleifend nunc a nulla ullamcorper lacinia. Nullam a elit tortor. Suspendisse placerat ultrices risus, vitae placerat est feugiat vitae. Nam lobortis mi et enim pulvinar a volutpat erat convallis. Praesent quis lacus magna, in ornare justo. Fusce ac odio sit amet dui semper venenatis. Nulla facilisi. Morbi quis lorem a tortor porta viverra sit amet eu ipsum.
+				</p>
+				<p>
+					Sed consequat, elit porta hendrerit aliquam, risus lectus malesuada sapien, quis tempus nisl ipsum eget nisi. Sed cursus nisi at leo elementum eget hendrerit libero condimentum. In facilisis congue metus in interdum. Donec sodales luctus urna, nec malesuada leo tristique non. Integer interdum sodales lectus sit amet sagittis. Morbi non odio magna.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
